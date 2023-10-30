@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aa91a11-84d9-4605-b91e-d1edba9b70bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/src/test/java/ru/netology/rest/MobileBankApiTestV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/test/java/ru/netology/rest/MobileBankApiTestV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest/src/test/resources/accounts.schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/rest/src/test/resources/accounts.schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/.appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/test/java/ru/netology/rest/MobileBankApiTestV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/test/java/ru/netology/rest/MobileBankApiTestV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/test/java/ru/netology/rest/MobileBankApiTestV3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/test/java/ru/netology/rest/MobileBankApiTestV4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/test/java/ru/netology/rest/MobileBankApiTestV5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/test/java/ru/netology/rest/MobileBankApiTestV6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest/src/test/resources/accounts.schema.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +51,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -53,11 +67,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Home Works Netology/UnitLesson2"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.MobileBankApiTestV4.shouldReturnDemoAccounts">
+  <component name="RunManager" selected="JAR Application.app-mbank.jar">
+    <configuration name="MobileBankApiTestV1.shouldReturnDemoAccounts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rest" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.rest.MobileBankApiTestV1.shouldReturnDemoAccounts&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="MobileBankApiTestV4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -106,9 +145,15 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="app-mbank.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/artifacts/app-mbank.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.app-mbank.jar" />
         <item itemvalue="Gradle.MobileBankApiTestV4.shouldReturnDemoAccounts" />
+        <item itemvalue="Gradle.MobileBankApiTestV1.shouldReturnDemoAccounts" />
         <item itemvalue="Gradle.MobileBankApiTestV4" />
       </list>
     </recent_temporary>
